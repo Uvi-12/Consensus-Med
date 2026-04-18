@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
 import Skeleton from './common/Skeleton';
 import { getModelVisuals, getShortModelName } from '../utils/modelHelpers';
 import StageTimer from './StageTimer';
@@ -75,7 +76,7 @@ export default function Stage3({ finalResponse, startTime, endTime }) {
                     </button>
                 </div>
                 <div className="final-text markdown-content">
-                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                    <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
                         {typeof finalResponse?.response === 'string'
                             ? finalResponse.response
                             : String(finalResponse?.response || 'No response')}

@@ -1,17 +1,11 @@
 # LLM Council Plus
 
-![LLM Council Plus](header.png)
-
 > **Collective AI Intelligence** — Instead of asking one LLM, convene a council of AI models that deliberate, peer-review, and synthesize the best answer.
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![React](https://img.shields.io/badge/React-19-61DAFB.svg)](https://reactjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688.svg)](https://fastapi.tiangolo.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
----
-
-## What is LLM Council Plus?
 
 Instead of asking a single LLM (like ChatGPT or Claude) for an answer, **LLM Council Plus** assembles a council of multiple AI models that:
 
@@ -20,19 +14,6 @@ Instead of asking a single LLM (like ChatGPT or Claude) for an answer, **LLM Cou
 3. **Synthesize a final answer** through a Chairman model (Stage 3)
 
 The result? More balanced, accurate, and thoroughly vetted responses that leverage the collective intelligence of multiple AI models.
-
-<p align="center">
-  <div align="center">
-    <a href="https://www.youtube.com/watch?v=HOdyIyccOCE" target="_blank">
-      <img src="https://img.youtube.com/vi/HOdyIyccOCE/hqdefault.jpg" alt="LLM Council Plus Long Demo" width="48%">
-    </a>
-    <a href="https://www.youtube.com/watch?v=NUmQFGAwD3g" target="_blank">
-      <img src="https://img.youtube.com/vi/NUmQFGAwD3g/hqdefault.jpg" alt="LLM Council Plus Short Demo" width="48%">
-    </a>
-  </div>
-</p>
-
----
 
 ## Installation
 
